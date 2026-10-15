@@ -2,9 +2,9 @@ import type { Register } from 'claude-code'
 
 // 配色取自 Rosé Pine（Ghostty 当前主题），色值来自终端截图采样：
 // foam #9ccfd8 是日期那个蓝，rose #ebbcba 是文件夹名那个粉。
-// 你的消息：实心 foam 蓝气泡压暗两档，文字不指定颜色，用默认前景色，和 Claude 那边一致。
+// 你的消息：实心 foam 蓝气泡压暗三档，文字不指定颜色，用默认前景色，和 Claude 那边一致。
 // Claude 回复：rose 粉调压暗的底，保持默认浅色文字（长回复和代码块需要深底）。
-const USER_BG = '#2f6470' // Rosé Pine foam 压暗两档，默认白字在其上 5.0:1
+const USER_BG = '#26505a' // Rosé Pine foam 压暗三档，默认白字在其上 6.7:1
 const USER_BORDER = '#9ccfd8' // Rosé Pine foam 原色，比底色亮一档，勾出边框
 const CLAUDE_BORDER = '#ebbcba' // Rosé Pine rose
 const CLAUDE_TINT = '#2c1c21'
