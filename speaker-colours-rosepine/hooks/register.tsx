@@ -2,11 +2,10 @@ import type { Register } from 'claude-code'
 
 // 配色取自 Rosé Pine（Ghostty 当前主题），色值来自终端截图采样：
 // foam #9ccfd8 是日期那个蓝，rose #ebbcba 是文件夹名那个粉。
-// 你的消息：实心 foam 蓝气泡压暗一档，仍配深色文字（底色不够浅，浅字反而看不清）。
+// 你的消息：实心 foam 蓝气泡压暗两档，文字不指定颜色，用默认前景色，和 Claude 那边一致。
 // Claude 回复：rose 粉调压暗的底，保持默认浅色文字（长回复和代码块需要深底）。
-const USER_BG = '#4a8f9b' // Rosé Pine foam 压暗一档，实心气泡不再刺眼
+const USER_BG = '#2f6470' // Rosé Pine foam 压暗两档，默认白字在其上 5.0:1
 const USER_BORDER = '#9ccfd8' // Rosé Pine foam 原色，比底色亮一档，勾出边框
-const USER_TEXT = '#191724' // Rosé Pine base，在压暗后的 foam 上是 4.8:1
 const CLAUDE_BORDER = '#ebbcba' // Rosé Pine rose
 const CLAUDE_TINT = '#2c1c21'
 
@@ -22,7 +21,7 @@ export const register: Register = on => {
 
     return (
       <Box borderStyle="quote" borderColor={USER_BORDER} backgroundColor={USER_BG}>
-        <Text color={USER_TEXT}>{'❯ ' + e.props.text}</Text>
+        <Text>{'❯ ' + e.props.text}</Text>
       </Box>
     )
   })
