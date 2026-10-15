@@ -1,0 +1,9 @@
+{
+  "name": "context-bar",
+  "version": "0.2.0",
+  "description": "Your context window as a stacked bar above the prompt, a color per category, with token counts and the compaction point. /context-bar shows or hides it. Fork of context-bar by Hamza Zafar, with shorter category labels.",
+  "author": {
+    "name": "Ty"
+  },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "speaker-colours-rosepine",
+  "version": "1.1.0",
+  "description": "Rosé Pine speaker colours: a foam bar for your messages, rose for Claude's replies. Fork of speaker-colours by Herman Chan, recoloured for the Rosé Pine terminal theme.",
+  "author": {
+    "name": "Ty"
+  }
+}

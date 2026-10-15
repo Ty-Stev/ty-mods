@@ -1,0 +1,21 @@
+{
+  "name": "ty-mods",
+  "owner": {
+    "name": "Ty"
+  },
+  "metadata": {
+    "description": "Ty's own Claude Code mods"
+  },
+  "plugins": [
+    {
+      "name": "speaker-colours-rosepine",
+      "source": "./speaker-colours-rosepine",
+      "description": "Rosé Pine speaker colours: foam bar for your messages, rose for Claude's replies."
+    },
+    {
+      "name": "context-bar",
+      "source": "./context-bar",
+      "description": "Your context window as a stacked bar above the prompt, with shorter category labels."
+    }
+  ]
+}
